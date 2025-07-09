@@ -10,23 +10,31 @@
       box-sizing: border-box;
     }
 
-      .donate-button {
-    display: inline-block;
-    background-color: #ffc14d;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 14px 40px;
-    border: none;
-    border-radius: 999px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
+    .sbp-button {
+      background-color: #1B093F;
+      color: white;
+      padding: 12px 24px;
+      font-size: 20px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none; /* убираем подчёркивание */
+    }
 
-  .donate-button:hover {
-    background-color: #f5a623;
-  }
+    .sbp-button:hover {
+      background-color: #EE7426;
+      transform: scale(1.05);
+    }
+
+    .sbp-button img {
+      height: 38px;
+      width: 28px;
+    }
     body {
       margin: 0;
       background-color: #f2f2f2;
@@ -108,7 +116,10 @@
       <img src="https://i.ibb.co/N2B3qPdc/kot.png" alt="Котик" />
     </div>
 
-<a href="https://qr.nspk.ru/BS2A004Q79TT3Q8U85J8KBJ1CIKHR8GP?type=01&bank=100000000004&crc=647A" class="donate-button">Перевести</a>
+  <b href="https://123.example" class="sbp-button" target="_blank">
+ <img src="https://raw.githubusercontent.com/gist/PonomareVlad/e901e3e50e7b1c1b80c2f05f7b968758/raw/1abed6186b7c7a69ea5f4d284d2e767a9245650b/SBP.svg">
+    Перевести по СБП
+  </b>
 
 
   </div>
